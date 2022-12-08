@@ -6,7 +6,7 @@
     mq_install_dev_objects: true
     mq_admin_password: password
     mq_enable_webserver: true
-    mq_detect_download_installer: false # Installs last MQ Advanced Developper from repo IBM
-    mq_local_installer: mqadv_dev931_ubuntu_x86-64.tar.gz
+    mq_detect_download_installer: true # Installs last MQ Advanced Developper from repo IBM
+  # mq_local_installer: /vagrant_data/mqadv_dev931_ubuntu_x86-64.tar.gz
   roles:
-   - jpcasas.ibm_mq_ansible_role
+   - jpcasas.ibm_mq
