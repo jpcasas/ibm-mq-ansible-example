@@ -3,6 +3,15 @@
 - Vagrant
 - Ansible
 
+**Clone project**
+
+```bash
+
+git clone https://github.com/jpcasas/ibm-mq-ansible-example.git
+cd ibm-mq-ansible-example
+
+```
+
 **Create Machine**
 
 ```bash
@@ -39,6 +48,14 @@ ansible all -m ping -v
 ```
 
 **Install Role**
+
+```bash
+
+ansible-playbook playbook-mq.yml
+
+```
+**Run Playbook**
+
 ```bash
 
 ansible-playbook playbook-mq.yml
