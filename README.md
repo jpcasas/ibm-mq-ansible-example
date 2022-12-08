@@ -62,3 +62,5 @@ ansible-playbook playbook-mq.yml
 
 ```
 
+You can change the options of the installation in the file playbook-mq.yml. if the configuration are setted to download the binary the installation will take a few minutes.
+
