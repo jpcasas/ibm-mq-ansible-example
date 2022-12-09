@@ -47,13 +47,6 @@ ansible all -m ping -v
 
 ```
 
-**Install Role**
-
-```bash
-
-ansible-playbook playbook-mq.yml
-
-```
 **Run Playbook**
 
 ```bash
